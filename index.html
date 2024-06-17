@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>BLINK BLINK SHOP</title>
+</head>
+
+
+<body>
+
+    <div class="d-flex flex-column min-vh-100 bg-light ">
+        <!-- Header -->
+        <div id="header" class="sticky-top">
+            <header class="bg-info d-flex pl-5 pr-5 pb-1 pt-2">
+                <div class="text-lg text-primary font-weight-bold pr-2" onclick="window.location.href='index.html'">BLINK BLINK SHOP</div>
+
+                <nav>
+                    <a  style="cursor: pointer;" class="text-primary ml-1 text-decoration-none"
+                        onclick="scrollToElementWithPadding('new-arrivals', 60);">Store
+                        |</a>
+                    <a  style="cursor: pointer;" class="text-primary ml-1 text-decoration-none"
+                        onclick="scrollToElementWithPadding('about', 60);">About |</a>
+                    <a href="contact.html" class="text-primary ml-1 text-decoration-none">Contact |</a>
+                    <a href="payment.html" class="text-primary ml-1 text-decoration-none">Payment |</a>
+                </nav>
+                <div class="position-relative ml-auto">
+                    <input type="text" placeholder="Search" class="border rounded-lg p-1" />
+                    <button class="position-absolute border-0 bg-transparent"
+                        style="right: 10px; top: 50%; transform: translateY(-50%); filter: invert(10);"
+                        onclick="scrollToElementWithPadding('new-arrivals', 60);">
+                        <img aria-hidden="true" alt="search" src="img/icon/search.svg" />
+                    </button>
+                </div>
+
+            </header>
+        </div>
+        <!-- Main -->
+        <main class="flex-grow-1 p-4">
+            <!-- Banner -->
+            <div id="banner">
+                <section class="text-center mb-8">
+                    <img src="img/product/braner.jpg" style="height: 250px;" alt="Jewelry Display"
+                        class="mx-auto mb-4 rounded-lg shadow-sm">
+                    <p class="h5 font-italic">
+                        Every woman is gorgeous and alluring with her unique beauty
+                    </p>
+                    <button class="mt-4 mb-2 btn btn-outline-secondary"
+                        onclick="scrollToElementWithPadding('new-arrivals', 60);">Get
+                        Store</button>
+                </section>
+                <section class="text-center mb-5">
+                    <p class="text-muted small">BANGLE — BLINK BLINK SHOP
+                    </p>
+                    <div id="checkpoint-new-arrivals"></div>
+                    <button class="border-0 btn btn-outline-secondary"
+                        onclick="scrollToElementWithPadding('reviews', 60);">Customer Reviews</button>
+                </section>
+            </div>
+
+            <!-- New Arrivals -->
+            <div id="new-arrivals">
+                <div class="row w-100 justify-content-center">
+                    <a class="font-weight-bold font-italic text-decoration-none" style="font-size: 35px; color: black"
+                        id="new-arrivals" onclick="scrollToElementWithPadding('new-arrivals', 60);">NEW ARRIVALS
+                        <hr style="border: 0; height: 5px; background: black; margin: 3px 0;">
+                    </a>
+                </div>
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <section class="row justify-center p-5">
+
+                                <!-- Item 1 -->
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้กระดิ่งสีขาว&color=ขาว"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้กระดิ่งสีขาว.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้กระดิ่ง สีขาว</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้กระดิ่งสีฟ้า&color=ฟ้า"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้กระดิ่งสีฟ้า.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้กระดิ่ง สีฟ้า</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้ดอกเดซี่สีฟ้า&color=ฟ้า"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้ดอกเดซี่สีฟ้า.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้ดอกเดซี่ สีฟ้า</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </section>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="carousel-item">
+                            <section class="row justify-center p-5">
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้ดอกเดซี่สีม่วง&color=ม่วง"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้ดอกเดซี่สีม่วง.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้ดอกเดซี่ สีม่วง</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้ดอกไม้สีขาว&color=ขาว"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้ดอกไม้สีขาว.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้ดอกไม้ สีขาว</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้ดาวสีขาว&color=ขาว"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้ดาวสีขาว.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้ดาวสี สีขาว</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+                            </section>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="carousel-item">
+                            <section class="row justify-center p-5">
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้ผีเสื้อสีฟ้า&color=ฟ้า"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้ผีเสื้อสีฟ้า.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้ผีเสื้อ สีฟ้า</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=จี้ผีเสื้อสีขาว&color=ขาว"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/จี้ผีเสื้อสีขาว.jpg" style="width: auto; height: auto;"
+                                                alt="Product 3" class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ จี้ผีเสื้อ สีขาว</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="position-relative text-center">
+                                        <a href="product.html#name=สีแดง&color=แดง"
+                                            class="text-decoration-none text-dark">
+                                            <img src="img/product/สีแดง.jpg" style="width: auto; height: auto;" alt="Product 3"
+                                                class="w-50 rounded-lg" />
+                                            <p class="mt-2">กำไลข้อมือ สีแดง</p>
+                                            <p class="font-weight-bold">฿29.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </section>
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- REVIEWS -->
+            <div id="review">
+                <div class="row w-100 justify-content-center mb-2" id="reviews">
+                    <a class="font-weight-bold font-italic text-decoration-none" style="font-size: 35px; color: black"
+                        id="new-arrivals" onclick="scrollToElementWithPadding('reviews', 60);">CUSTOMER REVIEW
+                        <hr style="border: 0; height: 5px; background: black; margin: 3px 0;">
+                    </a>
+                </div>
+
+                <div class="row w-100 justify-content-center d-flex" id="reviews">
+
+
+                    <div class="card m-4 shadow-sm col-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="https://placehold.co/50" alt="User" class="rounded-circle mr-2"
+                                    style="width: 50px; height: 50px;">
+                                <div>
+                                    <h2 class="h5 font-weight-bold mb-0">Kittipong</h2>
+                                    <p class="text-muted">5 stars <img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"></p>
+                                </div>
+                            </div>
+                            <p class="text-dark">"ใส่แล้วดูดีสุดๆ คุณภาพงานละเอียดครับ"</p>
+                        </div>
+                    </div>
+
+                    <div class="card m-4 shadow-sm col-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="https://placehold.co/50" alt="User" class="rounded-circle mr-2"
+                                    style="width: 50px; height: 50px;">
+                                <div>
+                                    <h2 class="h5 font-weight-bold mb-0">VeeraChai</h2>
+                                    <p class="text-muted">4 stars <img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"></p>
+                                </div>
+                            </div>
+                            <p class="text-dark">"การออกแบบดูดีมากครับ ดูแพงกว่าเงินที่จ่ายไป"</p>
+                        </div>
+                    </div>
+
+                    <div class="card m-4 shadow-sm col-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="https://placehold.co/50" alt="User" class="rounded-circle mr-2"
+                                    style="width: 50px; height: 50px;">
+                                <div>
+                                    <h2 class="h5 font-weight-bold mb-0">Arda</h2>
+                                    <p class="text-muted">5 stars <img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"></p>
+                                </div>
+                            </div>
+                            <p class="text-dark">"ส่งเร็วมากค่ะ กำไลดูหรูหราสวยงามมากๆ"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card m-4 shadow-sm col-4">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="https://placehold.co/50" alt="User" class="rounded-circle mr-2"
+                                    style="width: 50px; height: 50px;">
+                                <div>
+                                    <h2 class="h5 font-weight-bold mb-0">Atikarn</h2>
+                                    <p class="text-muted">4 stars <img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px"><img src="img\icon\star.png"
+                                            style="height:15px; padding-bottom: 5px; padding-bottom: 5px"></p>
+                                </div>
+                            </div>
+                            <p class="text-dark">"ประทับใจกับดีไซน์และวัสดุครับ คุ้มค่าคุ้มราคามากครับ!"</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="about">
+                <div class="d-flex flex-column flex-md-row align-items-center p-4 ml-5 mr-5">
+                    <div class="col-md-6 p-5">
+                        <h2 class="font-weight-bold font-italic mb-3  text-right" style="font-size: 35px; color: black">
+                            ABOUT<br>BLINK BLINK SHOP</h2>
+                        <p class="mb-2 text-left">
+                            เครื่องประดับทำใส่มือ เครื่องประดับที่แสดงถึงตัวตนของผู้สวมใส่ที่เป็นคนสุขภาพ เรียบร้อย
+                            อ่อนหวาน และรักสงบ เครื่องประดับไม่ยุคที่ได้รับความนิยมในปัจจุบันมีหลายหลาย ไม่ว่าจะเป็น
+                            ต่างหู สร้อยคอ ถ้าใครกำลังมองหาเครื่องประดับไม่ยุค BLINK BLINK SHOP เป็นตัวเลือกที่ดี
+                        </p>
+                        <p class="mb-2">
+                            เพราะนอกจากจะได้เลือกเครื่องประดับไม่ยุค ความหมายดีๆ แล้ว ยังเป็นตัวใส่ใจที่โลก BLINK BLINK
+                            SHOP เป็นเป็นกำไลที่มีคุณภาพแน่นอน
+                        </p>
+                    </div>
+                    <div class="col-md-6 p-4 d-flex justify-content-center">
+                        <img src="img/product/about.jpg" style="height: 300px;" alt="Colorful bracelets on a hand"
+                            class="rounded-lg shadow-sm img-fluid">
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+    </main>
+    <footer class="bg-info py-2 text-center text-secondary">
+        BANGLE — BLINK BLINK SHOP
+        <a class="text-primary ml-2 " onclick="scrollToElementWithPadding('new-arrivals', 60);">SHOP NOW</a>
+    </footer>
+    </div>
+
+    <!-- Scripts -->
+    <div id="script">
+        <script>
+            function scrollToElementWithPadding(elementId, padding) {
+                var element = document.getElementById(elementId);
+                var elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+                var offsetPosition = elementPosition - padding;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>BLINK BLINK SHOP</title>
+</head>
+
+<body>
+
+    <div class="d-flex flex-column bg-light min-vh-100 ">
+        <!-- Header -->
+        <div id="header" class="sticky-top">
+            <header class="bg-info d-flex pl-5 pr-5 pb-1 pt-2">
+                <div class="text-lg text-primary font-weight-bold pr-2" onclick="window.location.href='index.html'">BLINK BLINK SHOP</div>
+                <nav>
+                    <a href="index.html#checkpoint-new-arrivals" class="text-primary ml-1 text-decoration-none"
+                        onclick="scrollToElementWithPadding('new-arrivals', 60);">Store
+                        |</a>
+                    <a href="index.html#about" class="text-primary ml-1 text-decoration-none"
+                        onclick="scrollToElementWithPadding('about', 60);">About |</a>
+                    <a href="contact.html" class="text-primary ml-1 text-decoration-none">Contact |</a>
+                    <a href="payment.html" class="text-primary ml-1 text-decoration-none">Payment |</a>
+                </nav>
+                <div class="position-relative ml-auto">
+                    <input type="text" placeholder="Search" class="border rounded-lg p-1" />
+                    <button class="position-absolute border-0 bg-transparent"
+                        style="right: 10px; top: 50%; transform: translateY(-50%); filter: invert(10);"
+                        onclick="scrollToElementWithPadding('new-arrivals', 60);">
+                        <img aria-hidden="true" alt="search" src="img/icon/search.svg" />
+                    </button>
+                </div>
+
+            </header>
+        </div>
+        <!-- Main -->
+        <main class="flex-grow-1 ">
+            <div id="about">
+                <div class="d-flex flex-column flex-md-row align-items-center p-4 ml-5 mr-5">
+                    <div class="col-md-6 p-4 d-flex justify-content-center">
+                        <img src="img/product/contact.jpg" style="height: 350px;" alt="Colorful bracelets on a hand"
+                            class="rounded-lg shadow-sm img-fluid">
+                    </div>
+                    <div class="col-md-6 p-4">
+                        <h2 class="font-weight-bold font-italic mb-3 " style="font-size: 35px; color: black">
+                            BLINK BLINK SHOP<br>Our address<br></h2>
+                        <p class="mb-2">
+                            
+                            159/9 Moo 2 Soi 7 Chang Phueak Subdistrict 
+                            Mueang Chiang Mai District Chiang Mai Province
+                            
+                            Get directions
+                            Open hours
+                            Daily 10:00 AM — 22:00 PM
+                            
+                        </p>
+                        <p class="mb-2">
+
+Contact info
++66 97 949 5272 / +66 94 461 2880
+blingbling.bangleshop@gmail.com
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer class="bg-info py-2 text-center text-secondary">
+            BANGLE — BLINK BLINK SHOP
+            <a class="text-primary ml-2 " href="index.html#checkpoint-new-arrivals">SHOP NOW</a>
+        </footer>
+    </div>
+</body>
+
+</html>

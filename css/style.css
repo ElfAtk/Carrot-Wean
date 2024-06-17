@@ -1,0 +1,87 @@
+*{
+    font-family: 'Mali', cursive;
+  }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+      filter: invert(100%);
+      margin-bottom: 50px;
+  }
+
+  .carousel-control-next:hover,
+  .carousel-control-prev:hover {
+      filter: invert(70%);
+  }
+  
+.mali-extralight {
+    font-family: "Mali", cursive;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .mali-light {
+    font-family: "Mali", cursive;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .mali-regular {
+    font-family: "Mali", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .mali-medium {
+    font-family: "Mali", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .mali-semibold {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .mali-bold {
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .mali-extralight-italic {
+    font-family: "Mali", cursive;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .mali-light-italic {
+    font-family: "Mali", cursive;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .mali-regular-italic {
+    font-family: "Mali", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .mali-medium-italic {
+    font-family: "Mali", cursive;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .mali-semibold-italic {
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .mali-bold-italic {
+    font-family: "Mali", cursive;
+    font-weight: 700;
+    font-style: italic;
+  }
+
