@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.item-list {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.item button {
+    margin-left: 5px;
+}
+
+.add-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-item input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+}
